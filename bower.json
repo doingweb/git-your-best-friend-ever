@@ -2,7 +2,7 @@
   "name": "git-your-best-friend-ever",
   "version": "0.0.0",
   "dependencies": {
-    "reveal.js": "~2.6.1",
+    "reveal.js": "^3.0.0",
     "reveal-highlight-themes": "~8.3.0"
   }
 }
