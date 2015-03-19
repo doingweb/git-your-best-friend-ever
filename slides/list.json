@@ -1,1 +1,6 @@
-["index.md"]
+[
+  "index.md",
+  "what-is-git.md",
+  "what-is-git-version-control.md",
+  "what-is-git-snapshots.md"
+]

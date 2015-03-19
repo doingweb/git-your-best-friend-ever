@@ -4,3 +4,5 @@ dist
 *.log
 .sass-cache
 index.html
+css/*.css
+css/*.css.map

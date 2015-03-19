@@ -1,10 +1,6 @@
+# Git
+## Your Best Friend, Ever
 
-# Git: Your Best Friend, Ever
+Chris Antes
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+[chrisdoingweb.com](http://chrisdoingweb.com)
