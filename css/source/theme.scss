@@ -36,11 +36,21 @@ $selectionBackgroundColor: #134674;
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
-// Images may not have edges.
-.reveal section img {
-  padding: 1em;
-  background: rgba(0, 0, 0, 0.05);
-  border: none;
-  border-radius: 0.25em;
-  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+.reveal {
+  // Images may not have edges.
+  section img {
+    padding: 1em;
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  // Headings against a background image
+  section[data-background-image] {
+    h1, h2, h3, h4, h5, h6 {
+      color: white;
+      text-shadow: 0 0 10px black;
+    }
+  }
 }
