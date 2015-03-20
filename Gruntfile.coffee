@@ -30,17 +30,21 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
-                tasks: ['sass']
+                tasks: ['sass', 'autoprefixer']
 
         sass:
 
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
+        autoprefixer:
+          theme:
+            src: 'css/theme.css'
+
         connect:
 
             livereload:
@@ -89,7 +93,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
 
 
     # Load all grunt tasks.
@@ -121,6 +125,7 @@ module.exports = (grunt) ->
         'Run presentation locally and start watch process (living document).', [
             'buildIndex'
             'sass'
+            'autoprefixer'
             'connect:livereload'
             'watch'
         ]
@@ -129,11 +134,12 @@ module.exports = (grunt) ->
         'Save presentation files to *dist* directory.', [
             'test'
             'sass'
+            'autoprefixer'
             'buildIndex'
             'copy'
         ]
 
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
