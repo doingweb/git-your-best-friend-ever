@@ -1,5 +1,4 @@
-## Dropbox is terrible for collaborating on code.
-
+## You’re trying to collaborate on a programming project through Dropbox.
 
 note:
 
