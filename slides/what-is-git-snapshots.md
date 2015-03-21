@@ -1,4 +1,4 @@
-## What is Git?
+## What is Version Control?
 
 Snapshots of your work.
 

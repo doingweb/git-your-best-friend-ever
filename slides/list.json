@@ -1,22 +1,30 @@
 [
-    "index.md",
-    [
-        "what-is-git.md",
-        "what-is-git-version-control.md",
-        "what-is-git-snapshots.md"
-    ],
-    [
-      "why-do-you-need-version-control.md",
-      "why-do-you-need-version-control-final-final-final.md",
-      {
-        "filename": "why-do-you-need-version-control-code-breaks.md",
-        "attr": {
-          "data-background": "http://ljdchost.com/3X8yE33.gif"
-        }
-      },
-      "why-do-you-need-version-control-dropbox.md"
-    ],
-    "lets-create-a-repository.md",
-    "further-reading.md",
-    "references.md"
+  "index.md",
+  [
+    "what-is-git.md",
+    "what-is-git-version-control.md",
+    "what-is-git-snapshots.md"
+  ],
+  [
+    "why-do-you-need-version-control.md",
+    "why-do-you-need-version-control-final-final-final.md",
+    {
+      "filename": "why-do-you-need-version-control-code-breaks.md",
+      "attr": {
+        "data-background": "http://ljdchost.com/3X8yE33.gif"
+      }
+    },
+    "why-do-you-need-version-control-dropbox.md"
+  ],
+  [
+    "other-vcs.md",
+    "other-vcs-try-them-too.md",
+    "other-vcs-github.md"
+  ],
+  [
+    "repository.md"
+  ],
+  "lets-create-a-repository.md",
+  "further-reading.md",
+  "attributions.md"
 ]

@@ -1,9 +1,11 @@
-## Files change.
+## "Save As" only works for so long.
 
 ![You’re making copies of your files with names like "FINAL FINAL VERSION"](images/final-final-final.png)
 
 note:
 
-You’re making copies of your files with names like "FINAL FINAL VERSION"
+How many versions back can you save?
 
-> Sure, I’ll send you the latest version of that file.
+What about versions that involve multiple files?
+
+Why did you make that snapshot?
