@@ -1,6 +1,6 @@
 ## Where do commits go?
 
-We can see commits with `git log`:
+We can see the list of commits with `git log`:
 
 ```
 $ git log --oneline

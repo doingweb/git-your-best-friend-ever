@@ -4,4 +4,4 @@
 
 note:
 
-Commits, trees, and blobs are all stored together in the key-value store (`objects` directory).
+Commits, trees, and blobs are all stored together in the key-value store.
