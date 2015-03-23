@@ -35,3 +35,7 @@ nothing to commit, working directory clean</span>
 note:
 
 During `atom new-file.txt`, I created the text file and added one line to it.
+
+`git add` takes the given file in the working directory and adds it to the index, staging it for commit.
+
+`git reset` resets the index to the given commit (optionally only for the given file).

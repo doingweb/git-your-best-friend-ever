@@ -35,3 +35,7 @@ nothing to commit, working directory clean</span>
 note:
 
 During `atom new-file.txt`, I added a line to the text file.
+
+`git checkout` copies files from a given tree into the working directory, as implied by the earlier slide. If a branch or commit is specified, it'll get that tree from the repository and also update the `HEAD` to point to it. If `--` is specified, it'll get the tree from the index.
+
+This and the previous (adding the file) commit report `1 insertion(+)` because the change I made in both of those instances was to add a line of text.
