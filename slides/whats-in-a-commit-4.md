@@ -2,9 +2,9 @@
 
 Let's see what a blob looks like:
 
-```
-$ git cat-file -p 0eeb399333af39939d3c83691747f7cf30a002ee
-{
+<pre><code data-trim data-noescape>
+$ <span class="fragment">git cat-file -p 0eeb399333af39939d3c83691747f7cf30a002ee</span>
+<span class="fragment">{
   "name": "git-your-best-friend-ever",
   "version": "0.0.0",
   "private": true,
@@ -26,5 +26,5 @@ $ git cat-file -p 0eeb399333af39939d3c83691747f7cf30a002ee
   "scripts": {
     "test": "grunt test"
   }
-}
-```
+}</span>
+</code></pre>

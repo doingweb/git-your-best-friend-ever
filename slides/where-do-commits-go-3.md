@@ -2,9 +2,9 @@
 
 Commits live in the *key-value store* (`.git/objects` directory):
 
-```
-$ ls -R .git/objects
-.git/objects:
+<pre><code data-trim data-noescape>
+$ <span class="fragment">ls -R .git/objects</span>
+<span class="fragment">.git/objects:
 1e  5e  ce  info  pack
 
 .git/objects/1e:
@@ -19,8 +19,8 @@ b98e70230c45fa1b61eab232ec1f66b29c8625
 .git/objects/info:
 
 .git/objects/pack:
-
-```
+</span>
+</code></pre>
 
 note:
 

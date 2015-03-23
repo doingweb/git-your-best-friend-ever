@@ -1,9 +1,9 @@
 ## Let's create a repository!
 
-```
-$ git init
-Initialized empty Git repository in .git/
-```
+<pre><code data-trim data-noescape>
+$ <span class="fragment">git init</span>
+<span class="fragment">Initialized empty Git repository in .git/</span>
+</code></pre>
 
 The current directory becomes the *working directory* for the new Git repository.
 

@@ -2,9 +2,9 @@
 
 Now let's get the commit's tree:
 
-```
-$ git cat-file -p 48b8b000be35eb9d739aa63b5556226405745e86
-100644 blob 69fad358018d530235f8e43c483d3ce960616a32    .bowerrc
+<pre><code data-trim data-noescape>
+$ <span class="fragment">git cat-file -p 48b8b000be35eb9d739aa63b5556226405745e86</span>
+<span class="fragment">100644 blob 69fad358018d530235f8e43c483d3ce960616a32    .bowerrc
 100644 blob d1d8a4176a416daffcfbfecdd3f35f24bd79fc7d    .editorconfig
 100644 blob 3518e7f29dcc2b195d7077d989efa3f6bd6cfbef    .gitignore
 100644 blob 855a9efe0a6aff5c442fbd1dc26a5af279d66b72    .jshintrc
@@ -16,5 +16,5 @@ $ git cat-file -p 48b8b000be35eb9d739aa63b5556226405745e86
 040000 tree 449df7430c1f8db1c0922d1fbc2ec99fb8ec3701    js
 100644 blob 0eeb399333af39939d3c83691747f7cf30a002ee    package.json
 040000 tree b938f6a0fd291522d106549360c0a7facdaf1f30    slides
-040000 tree e4eaa88c5ddd86fd4a6a95bf2769d36565863dd8    templates
-```
+040000 tree e4eaa88c5ddd86fd4a6a95bf2769d36565863dd8    templates</span>
+</code></pre>
