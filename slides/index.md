@@ -4,3 +4,5 @@
 Chris Antes
 
 [chrisdoingweb.com](http://chrisdoingweb.com)
+
+[github.com/doingweb](https://github.com/doingweb)

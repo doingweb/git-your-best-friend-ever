@@ -6,4 +6,8 @@ Snapshots of your work.
 
 note:
 
-Do some work, make a commit
+The data structure representing a snapshot is a *commit*.
+
+Do some work, make a commit.
+
+Commits live inside of a *repository*.

@@ -2,6 +2,8 @@
 
 <img src="images/octocat.png" alt="GitHub" height="400">
 
+<p class="fragment">This slide deck is [on GitHub](https://github.com/doingweb/git-your-best-friend-ever)!</p>
+
 note:
 
 - [The W3C](https://github.com/w3c)
