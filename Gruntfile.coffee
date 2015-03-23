@@ -42,8 +42,8 @@ module.exports = (grunt) ->
                     'css/theme.css': 'css/source/theme.scss'
 
         autoprefixer:
-          theme:
-            src: 'css/theme.css'
+            theme:
+                src: 'css/theme.css'
 
         connect:
 
