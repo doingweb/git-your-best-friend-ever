@@ -1,0 +1,48 @@
+[
+    "index.md",
+    [
+        "what-is-git.md",
+        "what-is-git-version-control.md",
+        "what-is-git-snapshots.md",
+        "what-is-git-distributed.md"
+    ],
+    [
+        "why-do-you-need-version-control.md",
+        "why-do-you-need-version-control-final-final-final.md",
+        {
+            "filename": "why-do-you-need-version-control-code-breaks.md",
+            "attr": {
+                "data-background": "http://ljdchost.com/3X8yE33.gif"
+            }
+        },
+        "why-do-you-need-version-control-dropbox.md"
+    ],
+    [
+        "other-vcs.md",
+        "other-vcs-try-them-too.md",
+        "other-vcs-github.md"
+    ],
+    [
+        "repo-anatomy.md",
+        "the-git-directory.md",
+        "lets-create-a-repository.md",
+        "the-working-directory.md"
+    ],
+    [
+        "committing.md",
+        "putting-in-work.md",
+        "file-lifecycle.md",
+        "file-lifecycle-2.md",
+        "file-lifecycle-3.md",
+        "file-lifecycle-4.md",
+        "where-do-commits-go.md",
+        "where-do-commits-go-2.md",
+        "where-do-commits-go-3.md",
+        "whats-in-a-commit.md",
+        "whats-in-a-commit-2.md",
+        "whats-in-a-commit-3.md",
+        "whats-in-a-commit-4.md"
+    ],
+    "further-reading.md",
+    "attributions.md"
+]
