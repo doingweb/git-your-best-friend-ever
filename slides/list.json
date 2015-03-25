@@ -3,8 +3,7 @@
     [
         "what-is-git.md",
         "what-is-git-version-control.md",
-        "what-is-git-snapshots.md",
-        "what-is-git-distributed.md"
+        "what-is-git-snapshots.md"
     ],
     [
         "why-do-you-need-version-control.md",
@@ -20,6 +19,7 @@
     [
         "other-vcs.md",
         "other-vcs-try-them-too.md",
+        "most-popular-vcs.md",
         "other-vcs-github.md"
     ],
     [
@@ -43,6 +43,7 @@
         "whats-in-a-commit-3.md",
         "whats-in-a-commit-4.md"
     ],
+    "git-is-distributed.md",
     "further-reading.md",
     "attributions.md"
 ]

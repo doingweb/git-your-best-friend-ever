@@ -6,6 +6,8 @@
 
 note:
 
+Git [was created](http://en.wikipedia.org/wiki/Git_%28software%29#History) specifically for internet-scale collaborative projects (Linux), and because of that, many open source projects have chosen it for their source control needs.
+
 - [The W3C](https://github.com/w3c)
 - [The White House](https://github.com/WhiteHouse)
 - [WSU](https://github.com/washingtonstateuniversity)

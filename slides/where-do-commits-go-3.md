@@ -24,4 +24,6 @@ b98e70230c45fa1b61eab232ec1f66b29c8625
 
 note:
 
-This is from a repository with a single commit of a single file, not packed. The key-value store of a repository any larger than that wouldn't fit so nicely on a slide.
+The keys are the 40-character [SHA-1](http://en.wikipedia.org/wiki/SHA-1) hashes for the associated objects. The hash of the first object listed above is `1eb98e70230c45fa1b61eab232ec1f66b29c8625`. Git stores the objects in folders named with the first two characters, then in files named with the remaining 38. This helps divide up the thousands of object files that can accumulate over time.
+
+This is from a repository with a single commit of a single file, not [packed](http://git-scm.com/book/en/v2/Git-Internals-Packfiles). The key-value store of a repository any larger than that wouldn't fit so nicely on a slide.

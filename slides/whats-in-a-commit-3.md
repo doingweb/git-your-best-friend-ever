@@ -18,3 +18,7 @@ $ <span class="fragment">git cat-file -p 48b8b000be35eb9d739aa63b5556226405745e8
 040000 tree b938f6a0fd291522d106549360c0a7facdaf1f30    slides
 040000 tree e4eaa88c5ddd86fd4a6a95bf2769d36565863dd8    templates</span>
 </code></pre>
+
+note:
+
+This looks pretty similar to a directory listing! `tree` objects are subdirectories and `blob` objects are files.
