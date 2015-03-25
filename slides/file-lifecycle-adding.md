@@ -36,6 +36,8 @@ note:
 
 During `atom new-file.txt`, I created the text file and added one line to it.
 
+I use the `-m` option on these slides so the *commit message* step isn't hidden. In practice, I would normally just do `git commit` and write the message in the text editor.
+
 `git add` takes the given file in the working directory and adds it to the index, staging it for commit.
 
 `git reset` resets the index to the given commit (optionally only for the given file).
