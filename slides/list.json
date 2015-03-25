@@ -35,6 +35,7 @@
         "file-lifecycle-adding.md",
         "file-lifecycle-modifying.md",
         "file-lifecycle-removing.md",
+        "amending.md",
         "gitignore.md",
         "where-do-commits-go.md",
         "where-do-commits-go-2.md",

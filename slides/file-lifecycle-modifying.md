@@ -24,7 +24,7 @@ Changes to be committed:
 
         modified:   new-file.txt
 
-$</span> <span class="fragment">git commit -m "Modified the file."</span>
+$</span> <span class="fragment">git commit --message="Modified the file."</span>
 <span class="fragment">[master 9bb1e7e] Modified the file.
  1 file changed, 1 insertion(+)
 $</span> <span class="fragment">git status</span>

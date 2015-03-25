@@ -23,7 +23,7 @@ Changes to be committed:
 
         new file:   new-file.txt
 
-$</span> <span class="fragment">git commit -m "Added new file."</span>
+$</span> <span class="fragment">git commit --message="Added new file."</span>
 <span class="fragment">[master 015ba6c] Added new file.
  1 file changed, 1 insertion(+)
  create mode 100644 new-file.txt
@@ -35,6 +35,8 @@ nothing to commit, working directory clean</span>
 note:
 
 During `atom new-file.txt`, I created the text file and added one line to it.
+
+I use the `-m` option on these slides so the *commit message* step isn't hidden. In practice, I would normally just do `git commit` and write the message in the text editor.
 
 `git add` takes the given file in the working directory and adds it to the index, staging it for commit.
 
