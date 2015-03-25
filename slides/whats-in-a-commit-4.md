@@ -28,3 +28,7 @@ $ <span class="fragment">git cat-file -p 0eeb399333af39939d3c83691747f7cf30a002e
   }
 }</span>
 </code></pre>
+
+note:
+
+This is exactly the content of the file I had on disk when I made this commit.
