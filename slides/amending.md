@@ -13,14 +13,14 @@ Changes to be committed:
 
         new file:   cat-names.txt
 
-$</span> <span class="fragment">git commit -m "Needed soem cat names."</span>
+$</span> <span class="fragment">git commit --message="Needed soem cat names."</span>
 <span class="fragment">[master 2e6c3b7] Needed soem cat names.
  1 file changed, 1 insertion(+)
  create mode 100644 cat-names.txt
 $</span> <span class="fragment">git log --oneline --max-count 2</span>
 <span class="fragment">2e6c3b7 Needed soem cat names.
 0d229e7 Removed the file.
-$</span> <span class="fragment">git commit --amend -m "Needed some cat names."</span>
+$</span> <span class="fragment">git commit --amend --message="Needed some cat names."</span>
 <span class="fragment">[master c86eff7] Needed some cat names.
  1 file changed, 1 insertion(+)
  create mode 100644 cat-names.txt

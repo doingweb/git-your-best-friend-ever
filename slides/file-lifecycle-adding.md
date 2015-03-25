@@ -23,7 +23,7 @@ Changes to be committed:
 
         new file:   new-file.txt
 
-$</span> <span class="fragment">git commit -m "Added new file."</span>
+$</span> <span class="fragment">git commit --message="Added new file."</span>
 <span class="fragment">[master 015ba6c] Added new file.
  1 file changed, 1 insertion(+)
  create mode 100644 new-file.txt

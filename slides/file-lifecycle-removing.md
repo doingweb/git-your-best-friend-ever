@@ -15,7 +15,7 @@ Changes to be committed:
 
         deleted:    new-file.txt
 
-$</span> <span class="fragment">git commit -m "Removed the file."</span>
+$</span> <span class="fragment">git commit --message="Removed the file."</span>
 <span class="fragment">[master 0d229e7] Removed the file.
  1 file changed, 2 deletions(-)
  delete mode 100644 new-file.txt
