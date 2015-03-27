@@ -41,11 +41,26 @@
         "where-do-commits-go-2.md",
         "where-do-commits-go-3.md",
         "whats-in-a-commit.md",
-        "whats-in-a-commit-2.md",
-        "whats-in-a-commit-3.md",
-        "whats-in-a-commit-4.md"
+        "whats-in-a-commit-cat-commit.md",
+        "whats-in-a-commit-cat-tree.md",
+        "whats-in-a-commit-cat-blob.md",
+        "commits-not-too-bad.md"
     ],
-    "git-is-distributed.md",
+    {
+        "filename": "back-to-practical-stuff.md",
+        "attr": {
+            "data-background": "http://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"
+        }
+    },
+    [
+        "branching.md",
+        "why-branch.md",
+        "what-are-branches.md"
+    ],
+    [
+        "remotes.md",
+        "git-is-distributed.md"
+    ],
     "further-reading.md",
     "attributions.md"
 ]

@@ -16,7 +16,7 @@ Slides on other VCSs. Refinements to previous slides.</span>
 
 note:
 
-We use `git cat-file`, because the actual object files stored on disk are [compressed and specially-formatted](http://git-scm.com/book/en/v2/Git-Internals-Git-Objects#Object-Storage).
+You'll probably never ever use `git cat-file` in practice; it's a lower-level command. We use it to display objects, because the actual object files stored on disk are [compressed and specially-formatted](http://git-scm.com/book/en/v2/Git-Internals-Git-Objects#Object-Storage).
 
 The commit we're looking at is the last commit in the log from a few slides ago.
 

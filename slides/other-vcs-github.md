@@ -16,4 +16,5 @@ Git [was created](http://en.wikipedia.org/wiki/Git_%28software%29#History) speci
 - [Facebook](https://github.com/facebook)
 - [Twitter](https://github.com/twitter)
 - [Python](https://github.com/python)
+- [IETF HTTP Working Group](https://github.com/httpwg)
 - [Git](https://github.com/git)
