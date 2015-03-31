@@ -57,7 +57,13 @@
         "why-branch.md",
         "what-are-branches.md",
         "what-is-head.md",
-        "checking-out.md"
+        "checking-out.md",
+        "branch-creating.md",
+        "branch-deleting.md",
+        "branch-renaming.md",
+        "branch-resetting.md",
+        "branch-reset-time-travel.md",
+        "merging.md"
     ],
     [
         "remotes.md",

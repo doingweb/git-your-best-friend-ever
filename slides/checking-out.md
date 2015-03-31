@@ -19,4 +19,4 @@ $</span> <span class="fragment" data-fragment-index="3">git checkout testing</sp
 
 note:
 
-Checking out a branch also updates the working directory. A plain checkout (i.e., not a [`--force` or `--merge` checkout](http://git-scm.com/docs/git-checkout)) will prevent data loss by failing if there are any conflicts with uncommitted changes.
+Checking out a branch also updates the index and working directory. A plain checkout (i.e., not a [`--force` or `--merge` checkout](http://git-scm.com/docs/git-checkout)) will prevent data loss by failing if there are any conflicts with uncommitted changes.
