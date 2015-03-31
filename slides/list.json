@@ -55,7 +55,9 @@
     [
         "branching.md",
         "why-branch.md",
-        "what-are-branches.md"
+        "what-are-branches.md",
+        "what-is-head.md",
+        "checking-out.md"
     ],
     [
         "remotes.md",
