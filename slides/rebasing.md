@@ -16,4 +16,8 @@ Applying: added staged command</span>
 
 note:
 
-Git will fast-forward by default, where possible.
+**This changes history!**
+
+Rebasing is really nice for keeping noisy merge commits to a minimum when you need to continually integrate upstream changes, but can cause a lot of problems for teammates if they base work off of commits that get thrown out by a rebase. Communicate or don't do it!
+
+http://git-scm.com/book/en/v2/Git-Branching-Rebasing#Rebase-vs.-Merge
