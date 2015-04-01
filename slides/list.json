@@ -77,7 +77,8 @@
         "git-is-distributed.md",
         "cloning.md",
         "fetching.md",
-        "pushing.md"
+        "pushing.md",
+        "pushing-new-branch.md"
     ],
     "further-reading.md",
     "attributions.md"
