@@ -74,7 +74,10 @@
     ],
     [
         "remotes.md",
-        "git-is-distributed.md"
+        "git-is-distributed.md",
+        "cloning.md",
+        "fetching.md",
+        "pushing.md"
     ],
     "further-reading.md",
     "attributions.md"
