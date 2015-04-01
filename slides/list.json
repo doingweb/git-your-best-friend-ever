@@ -41,11 +41,61 @@
         "where-do-commits-go-2.md",
         "where-do-commits-go-3.md",
         "whats-in-a-commit.md",
-        "whats-in-a-commit-2.md",
-        "whats-in-a-commit-3.md",
-        "whats-in-a-commit-4.md"
+        "whats-in-a-commit-cat-commit.md",
+        "whats-in-a-commit-cat-tree.md",
+        "whats-in-a-commit-cat-blob.md",
+        "commits-not-too-bad.md"
     ],
-    "git-is-distributed.md",
-    "further-reading.md",
-    "attributions.md"
+    {
+        "filename": "back-to-practical-stuff.md",
+        "attr": {
+            "data-background": "http://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"
+        }
+    },
+    [
+        "branching.md",
+        "why-branch.md",
+        "what-are-branches.md",
+        "what-is-head.md",
+        "checking-out.md",
+        "branch-creating.md",
+        "branch-deleting.md",
+        "branch-renaming.md",
+        "branch-resetting.md",
+        "branch-reset-time-travel.md",
+        "merging-1.md",
+        "merging-2.md",
+        "merging-3.md",
+        "merging-fast-forward.md",
+        "merge-conflict-start.md",
+        "merge-conflict-file.md",
+        "merge-conflict-resolve.md",
+        "rebasing.md"
+    ],
+    [
+        "remotes.md",
+        "git-is-distributed.md",
+        "cloning.md",
+        "fetching.md",
+        "pushing.md",
+        "pushing-new-branch.md"
+    ],
+    [
+        {
+            "filename": "collaborating.md",
+            "attr": {
+                "data-background": "http://media.giphy.com/media/WAu1TnEgUFf0c/giphy.gif"
+            }
+        },
+        "collaborating-github-public.md",
+        "collaborating-github-team.md"
+    ],
+    "other-tools.md",
+    {
+        "filename": "thats-git.md",
+        "attr": {
+            "data-background": "http://rack.2.mshcdn.com/media/ZgkyMDEzLzA4LzA1LzYyL2FuY2hvcm1hbi42NjJkYS5naWYKcAl0aHVtYgk4NTB4ODUwPgplCWpwZw/e36d14bd/1c0/anchorman.jpg"
+        }
+    },
+    "further-reading.md"
 ]

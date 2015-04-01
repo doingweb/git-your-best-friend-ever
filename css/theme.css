@@ -288,6 +288,9 @@ body {
   box-shadow: none;
   -webkit-filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
           filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5)); }
+.reveal section .fragment.burn, .reveal section .fragment.burn.current-visible {
+  opacity: 0.3;
+  visibility: visible; }
 .reveal section[data-background-image] h1, .reveal section[data-background-image] h2, .reveal section[data-background-image] h3, .reveal section[data-background-image] h4, .reveal section[data-background-image] h5, .reveal section[data-background-image] h6 {
   color: white;
   text-shadow: 0 0 10px black; }
