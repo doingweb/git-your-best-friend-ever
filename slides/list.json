@@ -80,6 +80,16 @@
         "pushing.md",
         "pushing-new-branch.md"
     ],
+    [
+        {
+            "filename": "collaborating.md",
+            "attr": {
+                "data-background": "http://media.giphy.com/media/WAu1TnEgUFf0c/giphy.gif"
+            }
+        },
+        "collaborating-github-public.md",
+        "collaborating-github-team.md"
+    ],
     "further-reading.md",
     "attributions.md"
 ]
