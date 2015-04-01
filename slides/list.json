@@ -90,6 +90,12 @@
         "collaborating-github-public.md",
         "collaborating-github-team.md"
     ],
-    "further-reading.md",
-    "attributions.md"
+    "other-tools.md",
+    {
+        "filename": "thats-git.md",
+        "attr": {
+            "data-background": "http://rack.2.mshcdn.com/media/ZgkyMDEzLzA4LzA1LzYyL2FuY2hvcm1hbi42NjJkYS5naWYKcAl0aHVtYgk4NTB4ODUwPgplCWpwZw/e36d14bd/1c0/anchorman.jpg"
+        }
+    },
+    "further-reading.md"
 ]
