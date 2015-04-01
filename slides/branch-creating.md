@@ -11,7 +11,7 @@ $</span> <span class="fragment" data-fragment-index="3">git branch new-feature</
   new-feature</span>
 </code></pre>
 
-<p class="fragment" data-fragment-index="7">Use `git checkout` to branch and switch in one command:</p>
+<p class="fragment" data-fragment-index="7">Use `git checkout -b` to branch and switch in one command:</p>
 
 <pre class="fragment" data-fragment-index="7"><code data-trim data-noescape>
 $ <span class="fragment" data-fragment-index="8">git branch --list</span>

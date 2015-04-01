@@ -1,4 +1,4 @@
-## Merge Conflicts: Not Really Scary
+## Merge Conflicts: Not Really So Scary
 
 Here's what the conflicted file looks like:
 
