@@ -24,12 +24,12 @@ $selectionBackgroundColor: #134674;
 
 // Fix links so they are not cut off
 .reveal a {
-  line-height: 1.3em;
+    line-height: 1.3em;
 }
 
 // Background generator
 @mixin bodyBackground() {
-  @include radial-gradient( #add9e4, #f7fbfc );
+    @include radial-gradient( #add9e4, #f7fbfc );
 }
 
 // Theme template ------------------------------
@@ -37,26 +37,37 @@ $selectionBackgroundColor: #134674;
 // ---------------------------------------------
 
 .reveal {
-  // Images may not have edges.
-  section img {
-    border: none;
-    background: none;
-    box-shadow: none;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
-  }
+    section {
+        // Images may not have edges.
+        img {
+            border: none;
+            background: none;
+            box-shadow: none;
+            filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+        }
 
-  // Headings against a background image
-  section[data-background-image] {
+        // Dim fragments before showing them. Borrowed from https://github.com/robdodson/webcomponents-revolution/blob/9bc6906452c807499ea95000e1c397a4e210458a/css/styles.css#L334.
+        .fragment {
+            &.burn,
+            &.burn.current-visible {
+                opacity: 0.3;
+                visibility: visible;
+            }
+        }
+    }
+
+    // Headings against a background image
+    section[data-background-image] {
+        h1, h2, h3, h4, h5, h6 {
+            color: white;
+            text-shadow: 0 0 10px black;
+        }
+    }
+
+    // Code inside of headings
     h1, h2, h3, h4, h5, h6 {
-      color: white;
-      text-shadow: 0 0 10px black;
+        code {
+            text-transform: none;
+        }
     }
-  }
-
-  // Code inside of headings
-  h1, h2, h3, h4, h5, h6 {
-    code {
-      text-transform: none;
-    }
-  }
 }

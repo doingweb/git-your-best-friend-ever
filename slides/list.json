@@ -63,7 +63,10 @@
         "branch-renaming.md",
         "branch-resetting.md",
         "branch-reset-time-travel.md",
-        "merging.md"
+        "merging.md",
+        "merge-conflict-start.md",
+        "merge-conflict-file.md",
+        "merge-conflict-resolve.md"
     ],
     [
         "remotes.md",
