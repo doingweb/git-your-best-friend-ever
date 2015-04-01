@@ -69,7 +69,8 @@
         "merging-fast-forward.md",
         "merge-conflict-start.md",
         "merge-conflict-file.md",
-        "merge-conflict-resolve.md"
+        "merge-conflict-resolve.md",
+        "rebasing.md"
     ],
     [
         "remotes.md",
