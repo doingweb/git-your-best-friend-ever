@@ -6,7 +6,7 @@ It's entirely up to the team how they work together, and there are a lot of comb
     <li class="fragment">**Clone** the repository into your local workspace.</li>
     <li class="fragment">Create a **branch** for your changes.</li>
     <li class="fragment">**Work**!</li>
-    <li class="fragment">**Push** back up to your fork.</li>
+    <li class="fragment">**Push** back up to your branch.</li>
     <li class="fragment">Keep working and pushing until it's ready.</li>
     <li class="fragment">Open a **pull request**.</li>
     <li class="fragment">**Participate** in the discussion about your changes, and work through any issues that need to be addressed before it can be merged.</li>
