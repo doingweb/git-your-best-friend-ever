@@ -15,7 +15,7 @@ $headingColor: $mainColor;
 $headingFontWeight: 300;
 // $headingLetterSpacing: -0.08em;
 $headingTextTransform: uppercase;
-$headingTextShadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+$headingTextShadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
 $heading1TextShadow: $headingTextShadow;
 $backgroundColor: #f7fbfc;
 $linkColor: #3b759e;
@@ -29,7 +29,7 @@ $selectionBackgroundColor: #134674;
 
 // Background generator
 @mixin bodyBackground() {
-    @include radial-gradient( #add9e4, #f7fbfc );
+    @include radial-gradient( #add9e4, $backgroundColor );
 }
 
 // Theme template ------------------------------
@@ -60,7 +60,7 @@ $selectionBackgroundColor: #134674;
     section[data-background-image] {
         h1, h2, h3, h4, h5, h6 {
             color: white;
-            text-shadow: 0 0 10px black;
+            text-shadow: 0 0 10px black !important;
         }
     }
 
@@ -68,6 +68,13 @@ $selectionBackgroundColor: #134674;
     h1, h2, h3, h4, h5, h6 {
         code {
             text-transform: none;
+        }
+    }
+
+    .print-pdf & {
+        .slide-background {
+            @include bodyBackground();
+            background-size: cover;
         }
     }
 }
