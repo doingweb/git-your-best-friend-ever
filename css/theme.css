@@ -50,7 +50,7 @@ body {
   line-height: 1.2;
   letter-spacing: normal;
   text-transform: uppercase;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important;
   word-wrap: break-word; }
 
 .reveal h1 {
@@ -66,7 +66,7 @@ body {
   font-size: 1em; }
 
 .reveal h1 {
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); }
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) !important; }
 
 /*********************************************
  * OTHER
@@ -293,6 +293,12 @@ body {
   visibility: visible; }
 .reveal section[data-background-image] h1, .reveal section[data-background-image] h2, .reveal section[data-background-image] h3, .reveal section[data-background-image] h4, .reveal section[data-background-image] h5, .reveal section[data-background-image] h6 {
   color: white;
-  text-shadow: 0 0 10px black; }
+  text-shadow: 0 0 10px black !important; }
 .reveal h1 code, .reveal h2 code, .reveal h3 code, .reveal h4 code, .reveal h5 code, .reveal h6 code {
   text-transform: none; }
+.print-pdf .reveal .slide-background {
+  background: #add9e4;
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #add9e4));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #add9e4 100%);
+  background-size: cover; }
